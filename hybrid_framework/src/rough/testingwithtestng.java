@@ -91,6 +91,14 @@ public class testingwithtestng {
 		return data;
 		
 	}
+
+@AfterTest
+public static void afterTest()
+{
+driver.close();
+driver.quite();
+
+}
 	*/
 	
 
